@@ -1,0 +1,43 @@
+.image-viewer {
+  
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.search-container input[type="text"] {
+  width: 300px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.search-container button {
+  background-color: #f57a20;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.search-container button:hover {
+  background-color: #d85515; 
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+
