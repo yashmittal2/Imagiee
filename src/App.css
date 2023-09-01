@@ -1,16 +1,15 @@
 .App {
   text-align: center;
   margin-bottom: 20px;
-
 }
 
-.App h1{
+.App h1 {
   color: rgba(245, 9, 9, 0.834);
   font-size: 60px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   border: 2px solid rgba(255, 81, 0, 0.271);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px solid rgba(255, 81, 0, 0.271);
 }
- 
-body{
-   background-color: blanchedalmond;
+
+body {
+  background-color: blanchedalmond;
 }

@@ -23,7 +23,7 @@ const ImageViewer = () => {
 
   return (
     <div className="image-viewer">
-      <div className="search-container" >
+      <div className="search-container">
         <input
           type="text"
           placeholder="Search for an image"
@@ -33,7 +33,7 @@ const ImageViewer = () => {
         <button onClick={handleSearch}>Search</button>
       </div>
       <div className="image-container">
-        {imageUrl && <img src={imageUrl}/>}
+        {imageUrl && <img src={imageUrl} />}
         {textOverlayVisible && <TextOverlay />}
       </div>
     </div>

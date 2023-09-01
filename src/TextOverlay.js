@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Draggable from "react-draggable";
-import './TextOverlay.css'
+import "./TextOverlay.css";
 
-const TextOverlay = ({imageUrl}) => {
+const TextOverlay = ({ imageUrl }) => {
   const [text, setText] = useState("");
   const [textList, setTextList] = useState([]);
 
