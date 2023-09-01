@@ -16,6 +16,7 @@
   cursor: move;
   color: white;
   font-size: 28px;
+   white-space: nowrap; 
 }
 .text-overlay-container input[type="text"] {
   width: 300px;
